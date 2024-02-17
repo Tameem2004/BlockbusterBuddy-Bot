@@ -98,3 +98,13 @@ Control Pannel > User Accounts > Credential Manager
 #Remove it
 #So when try to push stuff to a repo. It will ask for authorization again
 __________________________________________________
+//For Push Content Into Public/Privet repository
+Creat Folder
+Open Terminal
+git init
+git pull <repo link>
+//Change in file
+git add .
+git commit -m "message"
+git remote add origin<repo link>
+git push -u origin main
